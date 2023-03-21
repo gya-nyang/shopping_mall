@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lamy(project-page)</title>
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/base.css" type="text/css">
+    <link rel="stylesheet" href="./css/common.css" type="text/css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/common.js" defer></script>
+</head>
+<body>
+    <aside class="left_gnb">
+        <div class="member_area">
+            <a href="#" title="Login">Login</a>
+            <a href="#" title="Join">Join</a>
+        </div>
+        <h2>Categories</h2>
+        <nav>
+            <ul class="depth_01">
+                <li>
+                    <a href="#" title="Fountain Pens">Fountain Pens</a>
+                </li>
+                <li>
+                    <a href="#" title="Ballpoint Pens">Ballpoint Pens</a>
+                </li>
+                <li>
+                    <a href="#" title="Mechanical Pencils">Mechanical Pencils</a>
+                </li>
+                <li>
+                    <a href="#" title="Rollerball Pens">Rollerball Pens</a>
+                </li>
+                <li>
+                    <a href="#" title="Multisystem Pens">Multisystem Pens</a>
+                </li>
+                <li>
+                    <a href="#" title="Accessories">Accessories</a>
+                    <ul class="depth_02">
+                        <li>
+                            <a href="#" title="Ink">Ink</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Nibs">Nibs</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Mines & Refills">Mines &amp; Refills</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <a href="#" title="닫기" class="close_btn">
+            <span></span>
+            <span></span>
+        </a>
+    </aside>
+
+    <div class="content_wrap">
+        <header>
+            <div class="h_top wrap">
+                <h1>
+                    <a href="index.html" title="메인페이지로 이동">
+                        <img src="./images/lamy_logo.png" alt="라미 로고">
+                    </a>
+                </h1>
+                <p class="recent_viewed">
+                    <i class="bi bi-bag"></i>
+                    recent viewed
+                </p>
+                <p class="login">
+                    <a href="#" title="Login">Login</a>
+                </p>
+                <p class="your_bag">
+                    <i class="bi bi-bag"></i>
+                    Your Bag
+                    <span>￦0</span>
+                </p>
+                <a href="#" class="left_gnb_btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div class="h_bottom wrap">
+                <ul class="share_sns">
+                    <li>
+                        <a href="#" title="pinterest"><i class="bi bi-pinterest"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" title="facebook"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" title="twitter"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" title="linkedin"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                </ul>
+                <nav class="gnb">
+                    <ul class="depth_01">
+                        <li>
+                            <a href="#" title="HOME">HOME</a>
+                        </li>
+                        <li class="has_depth_02">
+                            <a href="#" title="PAGES">PAGES</a>
+                            <ul class="depth_02">
+                                <li><a href="#" title="Fountain Pens">Fountain Pens</a></li>
+                                <li><a href="#" title="Ballpoint Pens">Ballpoint Pens</a></li>
+                                <li><a href="#" title="Mechanical Pencils">Mechanical Pencils</a></li>
+                                <li><a href="#" title="Rollerball Pens">Rollerball Pens</a></li>
+                                <li><a href="#" title="Multisystem Pens">Multisystem Pens</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="WRITING TOOLS">WRITING TOOLS</a>
+                        </li>
+                        <li>
+                            <a href="#" title="PAGES">PAGES</a>
+                        </li>
+                        <li>
+                            <a href="#" title="CONTACT">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="call">
+                    <i class="bi bi-telephone"></i> +34 657 3556 778
+                </p>
+            </div>
+        </header>
+        <main>
+            <!-- 이벤트 배너 -->
+            <section id="top_banner">
+                <h2 class="d-none">EVENT BANNER</h2>
+                <ul>
+                    <li>
+                        <a href="#" title="">
+                            Free Shipping & Returns
+                            <br>
+                            <span>
+                                BUY NOW
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="">
+                            20% Discount for all product
+                            <br>
+                            <span>
+                                USE CODE: lamy
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="">
+                            20% Discount for all Fountain Pens
+                            <br>
+                            <span>
+                                USE CODE: lamy
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 슬라이드 -->
+            <section id="slide">
+                <h2 class="d-none">slide_banner</h2>
+                <ul class="slide_wrap">
+                    <li>
+                        <a href="#" title="">
+                            <img src="./images/slide_01.jpg" alt="">
+                            <p class="typo">
+                                Step into spring with fresh inspiration and 
+                                <br>
+                                the new LAMY joy strawberry
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="">
+                            <img src="./images/slide_02.jpg" alt="">
+                            <p class="typo">
+                                Step into spring with fresh inspiration and 
+                                <br>
+                                the new LAMY joy strawberry
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="">
+                            <img src="./images/slide_03.jpg" alt="">
+                            <p class="typo">
+                                Step into spring with fresh inspiration and 
+                                <br>
+                                the new LAMY joy strawberry
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 페이지 링크 -->
+            <section id="link_area">
+                <h2 class="d-none">link_area</h2>
+                <ul>
+                    <li>
+                        <a href="#" title="">
+                            <img src="./images/main_area_01.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="">
+                            <img src="./images/main_area_02.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 제품 -->
+            <section id="product" class="wrap">
+                <h2>NEW ARRIVALS</h2>
+                <ul class="tab">
+                    <li class="on">
+                        <a href="#" title="ALL">ALL</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Fountain Pens">Fountain Pens</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Ballpoint Pens">Ballpoint Pens</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Mechanical Pencils">Mechanical Pencils</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Rollerball Pens">Rollerball Pens</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Multisystem Pens">Multisystem Pens</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Accessories">Accessories</a>
+                    </li>
+                </ul>
+                <ul class="products">
+                    <li>
+                        <a href="#" title="" class="img_box">
+                            <img src="./images/product_01.png" alt="">
+                        </a>
+                        <p class="txt_box">
+                            <span class="price">
+                                ￦51,200
+                            </span>
+                            <br>
+                            LAMY AL-star Fountain Pen
+                        </p>
+                        <a href="#" title="카트에 추가" class="add-to-cart">ADD TO CART</a>
+                        <div class="desc_modal">
+                            <div class="product_img">
+                                <img src="./images/product_01.png" alt="">
+                            </div>
+                            <div class="desc_box">
+                                <h4>LAMY AL-star Fountain Pen</h4>
+                                <div class="rank">
+                                    <img src="./images/rank.png" alt="">
+                                </div>
+                                <div class="price_area">
+                                    ￦51,200 <span>￦56,000</span>
+                                </div>
+                                <p>
+                                    Those who use the LAMY AL-star appreciate the 
+                                    extraordinary lightness of its robust yet durable material. 
+                                    Its transparent grip also supplies a revealing look at the 
+                                    inner workings of the ink feed. A combination of materials 
+                                    which unites robustness and elegance, this series offers 
+                                    plenty of surprises with special editions in modern, 
+                                    lifestyle-oriented colours - inspiring writers to show their 
+                                    contemporary individuality with this accessory.
+                                </p>
+                                <a href="#" title="자세히 보기">View Full Product Details</a>
+                                <div class="add_cart">
+                                    <button></button>
+                                    <p class="counter"></p>
+                                    <button></button>
+                                    <input type="submit" value="Add to cart">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" title="" class="img_box">
+                            <img src="./images/product_02.png" alt="">
+                        </a>
+                        <p class="txt_box">
+                            <span class="price">
+                                ￦51,200
+                            </span>
+                            <br>
+                            LAMY AL-star Fountain Pen
+                        </p>
+                        <a href="#" title="카트에 추가" class="add-to-cart">ADD TO CART</a>
+                        <div class="desc_modal">
+                            <div class="img_box">
+                                <img src="./images/product_02.png" alt="">
+                            </div>
+                            <div class="desc_box">
+                                <h4>LAMY AL-star Fountain Pen</h4>
+                                <div class="rank">
+                                    <img src="./images/rank.png" alt="">
+                                </div>
+                                <div class="price_area">
+                                    ￦51,200 <span>￦56,000</span>
+                                </div>
+                                <p>
+                                    Those who use the LAMY AL-star appreciate the 
+                                    extraordinary lightness of its robust yet durable material. 
+                                    Its transparent grip also supplies a revealing look at the 
+                                    inner workings of the ink feed. A combination of materials 
+                                    which unites robustness and elegance, this series offers 
+                                    plenty of surprises with special editions in modern, 
+                                    lifestyle-oriented colours - inspiring writers to show their 
+                                    contemporary individuality with this accessory.
+                                </p>
+                                <a href="#" title="자세히 보기">View Full Product Details</a>
+                                <div class="add_cart">
+                                    <button></button>
+                                    <p class="counter"></p>
+                                    <button></button>
+                                    <input type="submit" value="Add to cart">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" title="" class="img_box">
+                            <img src="./images/product_03.png" alt="">
+                        </a>
+                        <p class="txt_box">
+                            <span class="price">
+                                ￦51,200
+                            </span>
+                            <br>
+                            LAMY AL-star Fountain Pen
+                        </p>
+                        <a href="#" title="카트에 추가" class="add-to-cart">ADD TO CART</a>
+                        <div class="desc_modal">
+                            <div class="img_box">
+                                <img src="./images/product_03.png" alt="">
+                            </div>
+                            <div class="desc_box">
+                                <h4>LAMY AL-star Fountain Pen</h4>
+                                <div class="rank">
+                                    <img src="./images/rank.png" alt="">
+                                </div>
+                                <div class="price_area">
+                                    ￦51,200 <span>￦56,000</span>
+                                </div>
+                                <p>
+                                    Those who use the LAMY AL-star appreciate the 
+                                    extraordinary lightness of its robust yet durable material. 
+                                    Its transparent grip also supplies a revealing look at the 
+                                    inner workings of the ink feed. A combination of materials 
+                                    which unites robustness and elegance, this series offers 
+                                    plenty of surprises with special editions in modern, 
+                                    lifestyle-oriented colours - inspiring writers to show their 
+                                    contemporary individuality with this accessory.
+                                </p>
+                                <a href="#" title="자세히 보기">View Full Product Details</a>
+                                <div class="add_cart">
+                                    <button></button>
+                                    <p class="counter"></p>
+                                    <button></button>
+                                    <input type="submit" value="Add to cart">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" title="" class="img_box">
+                            <img src="./images/product_04.png" alt="">
+                        </a>
+                        <p class="txt_box">
+                            <span class="price">
+                                ￦51,200
+                            </span>
+                            <br>
+                            LAMY AL-star Fountain Pen
+                        </p>
+                        <a href="#" title="카트에 추가" class="add-to-cart">ADD TO CART</a>
+                        <div class="desc_modal">
+                            <div class="img_box">
+                                <img src="./images/product_04.png" alt="">
+                            </div>
+                            <div class="desc_box">
+                                <h4>LAMY AL-star Fountain Pen</h4>
+                                <div class="rank">
+                                    <img src="./images/rank.png" alt="">
+                                </div>
+                                <div class="price_area">
+                                    ￦51,200 <span>￦56,000</span>
+                                </div>
+                                <p>
+                                    Those who use the LAMY AL-star appreciate the 
+                                    extraordinary lightness of its robust yet durable material. 
+                                    Its transparent grip also supplies a revealing look at the 
+                                    inner workings of the ink feed. A combination of materials 
+                                    which unites robustness and elegance, this series offers 
+                                    plenty of surprises with special editions in modern, 
+                                    lifestyle-oriented colours - inspiring writers to show their 
+                                    contemporary individuality with this accessory.
+                                </p>
+                                <a href="#" title="자세히 보기">View Full Product Details</a>
+                                <div class="add_cart">
+                                    <button></button>
+                                    <p class="counter"></p>
+                                    <button></button>
+                                    <input type="submit" value="Add to cart">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" title="" class="img_box">
+                            <img src="./images/product_05.png" alt="">
+                        </a>
+                        <p class="txt_box">
+                            <span class="price">
+                                ￦51,200
+                            </span>
+                            <br>
+                            LAMY AL-star Fountain Pen
+                        </p>
+                        <a href="#" title="카트에 추가" class="add-to-cart">ADD TO CART</a>
+                        <div class="desc_modal">
+                            <div class="img_box">
+                                <img src="./images/product_05.png" alt="">
+                            </div>
+                            <div class="desc_box">
+                                <h4>LAMY AL-star Fountain Pen</h4>
+                                <div class="rank">
+                                    <img src="./images/rank.png" alt="">
+                                </div>
+                                <div class="price_area">
+                                    ￦51,200 <span>￦56,000</span>
+                                </div>
+                                <p>
+                                    Those who use the LAMY AL-star appreciate the 
+                                    extraordinary lightness of its robust yet durable material. 
+                                    Its transparent grip also supplies a revealing look at the 
+                                    inner workings of the ink feed. A combination of materials 
+                                    which unites robustness and elegance, this series offers 
+                                    plenty of surprises with special editions in modern, 
+                                    lifestyle-oriented colours - inspiring writers to show their 
+                                    contemporary individuality with this accessory.
+                                </p>
+                                <a href="#" title="자세히 보기">View Full Product Details</a>
+                                <div class="add_cart">
+                                    <button></button>
+                                    <p class="counter"></p>
+                                    <button></button>
+                                    <input type="submit" value="Add to cart">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" title="" class="img_box">
+                            <img src="./images/product_06.png" alt="">
+                        </a>
+                        <p class="txt_box">
+                            <span class="price">
+                                ￦51,200
+                            </span>
+                            <br>
+                            LAMY AL-star Fountain Pen
+                        </p>
+                        <a href="#" title="카트에 추가" class="add-to-cart">ADD TO CART</a>
+                        <div class="desc_modal">
+                            <div class="img_box">
+                                <img src="./images/product_06.png" alt="">
+                            </div>
+                            <div class="desc_box">
+                                <h4>LAMY AL-star Fountain Pen</h4>
+                                <div class="rank">
+                                    <img src="./images/rank.png" alt="">
+                                </div>
+                                <div class="price_area">
+                                    ￦51,200 <span>￦56,000</span>
+                                </div>
+                                <p>
+                                    Those who use the LAMY AL-star appreciate the extraordinary lightness of its robust yet durable material. Its transparent grip also supplies a revealing look at the inner workings of the ink feed. A combination of materials which unites robustness and elegance, this series offers plenty of surprises with special editions in modern, lifestyle-oriented colours - inspiring writers to show their contemporary individuality with this accessory.
+                                </p>
+                                <a href="#" title="자세히 보기">View Full Product Details</a>
+                                <div class="add_cart">
+                                    <button>-</button>
+                                    <p class="counter"></p>
+                                    <button>+</button>
+                                    <input type="submit" value="Add to cart">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 이벤트 배너 -->
+            <section id="event_banner">
+                <h2 class="d-none">EVENT BANNER</h2>
+                <div class="wrap">
+                    <div class="banner_box">
+                        <h3>SPECIAL EDITION</h3>
+                        *Free shipping until 25 march  2023
+                        <p>
+                            <span>￦56,200</span> ￦51,200
+                        </p>
+                        <a href="#" title="자세히 보기">SHOP NOW</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- sns -->
+            <section id="sns" class="wrap">
+                <h2>TESTIMONIALS</h2>
+                <ul>
+                    <li>
+                        <img src="./images/sns_quotes.png" alt="">
+                        <p>
+                            Those who use the LAMY AL-star appreciate the extraordinary lightness of its robust yet durable material. Its transparent grip also supplies a revealing look at the inner workings of the ink feed.
+                        </p>
+                        <div>
+                            <img src="./images/sns_01.png" alt="">
+                            <p>
+                                Name
+                                <br>
+                                <span>
+                                    Client, where
+                                </span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <div class="f_top">
+                <div class="wrap">
+                    <div>
+                        <h2 class="footer_logo">
+                            <a href="#" title="메인페이지로 이동">
+                                <img src="./images/lamy_logo.png" alt="푸터 로고">
+                            </a>
+                        </h2>
+                        <address>
+                            Copyright ©2023 All rights reserved | 
+                            <br>
+                            Made with  by Colorlib & distributed by ThemeWagon
+                        </address>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#" title="About">About</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Blog">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Faq">Faq</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Returns">Returns</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Contact">Contact</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#" title="My Account">My Account</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Shipping">Shipping</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Our Policies">Our Policies</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Afiliates">Afiliates</a>
+                        </li>
+                    </ul>
+                    <div class="newsletter">
+                        <p>
+                            Subscribe to our newsletter
+                        </p>
+                        <input type="email" placeholder="your email here">
+                        <input type="submit" value="SUBSCRIBE">
+                    </div>
+                </div>
+            </div>
+            <div class="f_bottom wrap">
+                <ul>
+                    <li>
+                        <a href="#" title="pinterest"><i class="bi bi-pinterest"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" title="facebook"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" title="twitter"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" title="linkedin"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
